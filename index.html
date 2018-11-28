@@ -28,7 +28,14 @@
             <fieldset>
               <legend>Choose a life expectancy</legend>
               <div class="separator"></div>
-              <input class="input" type="number" name="expectedMaxYears" min="0" required="">
+              <input
+                class="input"
+                type="number"
+                name="expectedMaxYears"
+                min="0"
+                inputmode="numeric"
+                pattern="[0-9]*"
+                required="">
             </fieldset>
             <div class="container_button">
               <button class="btn">Save</button>
