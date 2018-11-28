@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Seconds left</title>
+    <link rel="stylesheet" type="text/css" href="dist/css/bundle.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, shrink-to-fit=no">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <meta name="theme-color" content="#2F3BA2"/>
+    <link rel="manifest" href="manifest.json">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="seconds left">
+    <link rel="apple-touch-icon" href="images/icons/icon-128x128.png">
+  </head>
+  <body>
+    <div class="app">
+      <h1 class="time"></h1>
+      <div class="wrapper">
+        <button class="btn cancel">Cancel</button>
+        <div class="container_form">
+          <form>
+            <fieldset>
+              <legend>Choose date of birth</legend>
+              <div class="separator"></div>
+              <input class="input" type="date" name="dateOfBirth" required="">
+            </fieldset>
+            <fieldset>
+              <legend>Choose a life expectancy</legend>
+              <div class="separator"></div>
+              <input class="input" type="number" name="expectedMaxYears" min="0" required="">
+            </fieldset>
+            <div class="container_button">
+              <button class="btn">Save</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <button class="btn updateDate">Update</button>
+    </div>
+    <script src="dist/js/bundle.js"></script>
+  </body>
+</html>
