@@ -11,8 +11,8 @@
     "build": "NODE_ENV=production webpack"
   },
   "dependencies": {
-    "webpack": "3.5.5",
     "compression": "^1.7.3",
+    "express": "^4.15.2",
     "heroku-ssl-redirect": "0.0.4"
   },
   "devDependencies": {
@@ -21,7 +21,7 @@
     "url-loader": "^1.0.1",
     "css-loader": "^0.28.7",
     "postcss-loader": "^2.1.6",
-    "express": "^4.15.2",
+    "webpack": "3.5.5",
     "style-loader": "^0.19.0"
   }
 }
